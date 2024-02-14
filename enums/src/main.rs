@@ -33,6 +33,8 @@ fn demo_enum_with_data() {
     println!("\nDemo enums with data");
 
     let h: HouseLocation = HouseLocation::Number(4);
+    // let h: HouseLocation = HouseLocation::Name(String::from("Lacie"));
+    
     match h {
         HouseLocation::Number(n) => println!("You live in house number {}", n),
         HouseLocation::Name(s)   => println!("You live in a house named {}", s),

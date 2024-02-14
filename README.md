@@ -43,6 +43,22 @@ pub enum Color {
     #[allow(dead_code)] Blue
 }
 
+// Option Enums
+enum Option<T> {
+    Some(T),
+    None
+}
+
+// Results Enums
+enum Result<T, E> {
+    Ok(T),
+    Err(E)
+}
+
+fn sec_of_day(h: u32, m: u32, s: u32) -> Option<u32> { // => function with return type Option<u32>
+    // some code here
+}
+
 ```
 
 
