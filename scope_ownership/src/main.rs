@@ -25,3 +25,6 @@ fn main() {
 
 	// println!("\nBtw, GLOBAL_MESSAGE is {}", GLOBAL_MESSAGE);
 }
+
+
+
