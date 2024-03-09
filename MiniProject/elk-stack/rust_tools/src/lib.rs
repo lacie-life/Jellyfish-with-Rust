@@ -1,5 +1,6 @@
 use serde::Deserialize;
 use std::collections::HashMap;
+use tracing::info;
 
 // load the regex-fules.json file to provide configs
 const JSON: &str = include_str!("../regex-rules.json");
@@ -32,7 +33,7 @@ impl Rule {
     }
 
     pub fn on_match(&mut self, matched_text: &str) -> String {
-        println!("Redacting: {}", matched_text);
+        info!("Redacting: {}", matched_text);
         let redacted_match = self
             .mapping
             .entry(matched_text.to_string())
@@ -40,7 +41,7 @@ impl Rule {
                 self.count += 1;
                 format!("{}{}", self.placeholder, self.count)
             });
-        println!("Redacted result: {}", redacted_match);
+        info!("Redacted result: {}", redacted_match);
         redacted_match.clone()
     }
 }
@@ -48,7 +49,6 @@ impl Rule {
 // Load the rules from a configuration file (JSON)
 pub fn load_rule_configs() -> Vec<Rule> {
     let loaded_json: Vec<JSONRuleConfig> = serde_json::from_str(JSON).unwrap();
-
     let mut rules: Vec<Rule> = Vec::new();
     for rule in loaded_json {
         rules.push(Rule::new(
