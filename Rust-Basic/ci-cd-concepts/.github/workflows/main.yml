@@ -1,0 +1,21 @@
+# This is an example GitHub Actions workflow that will allow you to build your project with every push or pull request.
+# For more information, see:
+# https://docs.github.com/actions/reference/workflow-syntax-for-github-actions
+
+name: Rust Code Quality
+
+on:
+  workflow_dispatch:
+
+jobs:
+  matrix_build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Check Cargo FMT
+      run: cargo fmt --check
+    - name: Make sure Rust builds correctly
+      run: cargo build
