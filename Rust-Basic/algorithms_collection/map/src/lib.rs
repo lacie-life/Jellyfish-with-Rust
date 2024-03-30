@@ -1,5 +1,3 @@
-#![feature(test, bind_by_move_pattern_guards)]
-
 mod map;
 mod set;
 
