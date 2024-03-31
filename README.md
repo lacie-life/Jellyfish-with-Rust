@@ -140,7 +140,7 @@ pub fn do_it() {
 
 #### Heap Sort
 
-![Sort 2](./Resources/Heap_20Sort.png)
+![Sort 2](./Resources/Heap_Sort.png)
 
 #### Merge Sort
 
