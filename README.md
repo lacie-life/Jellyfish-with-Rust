@@ -120,6 +120,58 @@ pub fn do_it() {
 
 - <b> Vector </b> : A dynamic array data structure provided by Rust's standard library, used for storing a variable number of elements efficiently. It can grow or shrink in size during runtime.
 
+### Bench test
+
+#### Map
+
+![Map](./Resources/bench.maps.std.vs.naive.png)
+
+#### Sequence
+
+![Sequence](./Resources/bench.seq.std.vs.naive.png)
+
+#### Tree
+
+![Tree](./Resources/bench.trees.std.vs.naive.png)
+
+#### Bubble Sort
+
+![Sort 1](./Resources/Bubble_Sort.png)
+
+#### Heap Sort
+
+![Sort 2](./Resources/Heap_20Sort.png)
+
+#### Merge Sort
+
+![Sort 3](./Resources/Merge_Sort.png)
+
+#### Quick Sort
+
+![Sort 4](./Resources/Quick_Sort.png)
+
+#### Shell Sort
+
+![Sort 5](./Resources/Shell_Sort.png)
+
+#### Stdlib Sort
+
+![Sort 6](./Resources/Stdlib_Sort.png)
+
+### Runtime
+
+![Runtime 1](./Resources/runtime.complexity.png)
+
+![Runtime 2](./Resources/runtime.exp.png)
+
+![Runtime 3](./Resources/runtime.logn.png)
+
+![Runtime 4](./Resources/runtime.n.png)
+
+![Runtime 5](./Resources/runtime.n2.png)
+
+![Runtime 6](./Resources/runtime.nlogn.png)
+
 
 
 
