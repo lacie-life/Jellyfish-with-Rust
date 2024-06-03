@@ -1,0 +1,6 @@
+[package]
+name = "apped_charecters_2486"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
