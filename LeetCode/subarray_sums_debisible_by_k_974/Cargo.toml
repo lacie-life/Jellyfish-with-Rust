@@ -1,0 +1,6 @@
+[package]
+name = "subarray_sums_debisible_by_k_974"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
