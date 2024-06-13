@@ -1,0 +1,6 @@
+[package]
+name = "min_number_move_seat_2037"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
