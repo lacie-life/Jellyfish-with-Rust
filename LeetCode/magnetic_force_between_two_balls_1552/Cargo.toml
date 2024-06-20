@@ -1,0 +1,6 @@
+[package]
+name = "magnetic_force_between_two_balls_1552"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
