@@ -1,0 +1,6 @@
+[package]
+name = "count_number_of_nice_subarrays_1248"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
