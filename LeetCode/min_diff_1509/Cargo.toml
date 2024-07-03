@@ -1,0 +1,6 @@
+[package]
+name = "min_diff_1509"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
