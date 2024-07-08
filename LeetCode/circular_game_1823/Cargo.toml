@@ -1,0 +1,6 @@
+[package]
+name = "circular_game_1823"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
