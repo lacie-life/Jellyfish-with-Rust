@@ -1,0 +1,6 @@
+[package]
+name = "max_score_remove_substring_1717"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
