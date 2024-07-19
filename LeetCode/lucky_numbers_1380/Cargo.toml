@@ -1,0 +1,6 @@
+[package]
+name = "lucky_numbers_1380"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
