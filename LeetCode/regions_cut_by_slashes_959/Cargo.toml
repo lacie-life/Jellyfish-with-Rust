@@ -1,0 +1,6 @@
+[package]
+name = "regions_cut_by_slashes_959"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
