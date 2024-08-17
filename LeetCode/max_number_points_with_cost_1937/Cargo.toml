@@ -1,0 +1,6 @@
+[package]
+name = "max_number_points_with_cost_1937"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
