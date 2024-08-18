@@ -1,0 +1,6 @@
+[package]
+name = "ugly_number_ii_264"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
