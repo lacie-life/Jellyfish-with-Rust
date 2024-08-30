@@ -1,0 +1,6 @@
+[package]
+name = "modify_graph_edge_weight_2699"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
