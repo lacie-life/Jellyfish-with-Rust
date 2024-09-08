@@ -1,0 +1,6 @@
+[package]
+name = "split_linked_list_in_parts_725"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
