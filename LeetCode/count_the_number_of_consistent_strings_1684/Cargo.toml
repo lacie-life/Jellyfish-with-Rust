@@ -1,0 +1,6 @@
+[package]
+name = "count_the_number_of_consistent_strings_1684"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
