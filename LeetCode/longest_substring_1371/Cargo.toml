@@ -1,0 +1,6 @@
+[package]
+name = "longest_substring_1371"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
